@@ -1,0 +1,86 @@
+header {
+  main {
+    img {
+      padding: 5px 5px;
+    }
+
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: black;
+
+
+      li {
+        float: right;
+      }
+
+      li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 20px 16px;
+        text-decoration: none;
+      }
+
+    }
+  }
+
+  li a:hover:not(.active) {
+    background-color: #0d2838b8;
+    height: 3.6vh;
+
+  }
+
+  .active {
+    background-color: #4CAF50;
+  }
+  // display: flex;
+  // justify-content: space-evenly;
+  // align-items: center;
+  // background-color: black;
+  // // background-image: url('https://backgroundcheckall.com/wp-content/uploads/2018/10/background-urbano-5.jpg');
+  // width: 100%;
+  // height: 60px;
+
+  // a {
+  //   display: flex;
+  //   color: #bb4ff0;
+  //   text-decoration: none;
+  //   justify-content: center;
+  //   align-items: center;
+  // }
+}
+
+// a {
+//   position: relative;
+//   -webkit-animation: mymove 2.3s infinite;
+//   animation: 4s alternate mymove;
+// }
+
+// @keyframes mymove {
+//   from {
+//     left: 50%;
+//   }
+
+//   to {
+//     left: 0%;
+//   }
+// }
+
+// .circle {
+//   animation: 8.1s alternate circle;
+// }
+
+// @keyframes circle {
+//   from {
+//     -webkit-clip-path: circle(0%);
+//     clip-path: circle(0%);
+//   }
+
+//   to {
+//     -webkit-clip-path: circle(100%);
+//     clip-path: circle(100%);
+//   }
+// }

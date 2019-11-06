@@ -1,0 +1,225 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    background: url(/IMG/fundo.jpg)
+
+}
+.nav {
+
+    background-color: #010103;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3px 25px;
+    border-bottom: 7px solid #e0e0e024;
+    position: fixed;
+    width: 100%;
+    height: 70px;
+    transition: ease .2s;
+    top: 0;
+    font-family: roboto;
+    font-weight: 500;
+    
+}
+
+.nav img {
+    transition: cubic-bezier(0, 1.24, 1, 1) .2s;
+    width: 97px;
+    margin-left: -122px;
+
+}
+/* ============  NAV inicio ================== */
+
+
+ .nav-header {
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    font-weight: 500;
+}
+
+.nav-header li {
+    padding: 0px 10px;
+    list-style: none;
+}
+
+.nav-a {
+    display: block;
+    text-decoration: none;
+    color: green;
+    font-size: 20px;
+    padding: 20px;
+
+
+}
+
+.nav-a:hover {
+    text-decoration: none;
+    color: #2a6496;
+    transition: 0.2s;
+    font-size: 20px;
+}
+
+.nav-header li:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+    transition: 0.5s;
+    border-radius: 9px;
+
+} 
+ /* ============  NAV fim ================== */
+/* *{
+  margin: 0;
+  padding: 0;
+} */
+
+@keyframes skew {
+    0% {
+      color: blue;
+    }
+    10% {
+      color: #26d991;
+    }
+    20% {
+      color: red;
+    }
+    30% {
+      color: yellow;
+    }
+    40% {
+      color: orange;
+    }
+    50% {
+      color: rgb(59, 28, 145);
+    }
+    60% {
+      color: rgb(8, 142, 219);
+    }
+    70% {
+      color: rgb(57, 138, 113);
+    }
+    80% {
+      color: rgb(121, 24, 32);
+    }
+    90% {
+      color: rgb(29, 129, 9);
+    }
+    100% {
+      color: hotpink;
+    }
+  }
+  
+  
+  
+  h1 {
+    animation: skew 50s ease-in-out infinite alternate;
+  }
+  
+  .backredes {
+    /* background-image: url(); */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    flex-direction: column;
+  }
+
+  .soc {
+    padding: 0;
+    align-items: center;
+    display: flex;
+    padding-top: 810px;
+    text-align: center;
+}
+
+  
+  .soc li {
+    display: inline-block;
+    margin: 12px;
+    margin: 1.2rem;
+  }
+  
+  .soc a,
+  .soc svg {
+    display: block;
+  }
+  
+  .soc a {
+    position: relative;
+    height: 96px;
+    width: 96px;
+  }
+  
+  .soc svg {
+    height: 100%;
+    width: 100%;
+  }
+  
+  .icon-github:hover,
+  .icon-instagram:hover,
+  .icon-linkedin:hover,
+  .icon-twitter:hover {
+    border-radius: 100%;
+    color: #0e1a25;
+    fill: #0e1a25;
+    -webkit-transform: scale(1.25);
+    transform: scale(1.25);
+    transition: background-color 0.5s, -webkit-transform 0.5s ease-out;
+    transition: background-color 0.5s, transform 0.5s ease-out;
+    transition: background-color 0.5s, transform 0.5s ease-out, -webkit-transform 0.5s ease-out;
+  }
+  
+  .icon-github {
+    color: #26d991;
+    fill: #000;
+    transition: 2s;
+  }
+  
+  .icon-github:hover {
+    background: #26d991;
+  }
+  
+  .icon-instagram {
+    color: #26d9d9;
+    fill: #000;
+    transition: 2s;
+  }
+  
+  .icon-instagram:hover {
+    background: #26d9d9;
+  }
+  
+  .icon-twitter {
+    color: #2691d9;
+    transition: 2s;
+    fill: #000;
+  }
+  
+  .icon-twitter:hover {
+    background: #2691d9;
+  }
+  
+  .icon-linkedin {
+    color: #d926b5;
+    fill: #000;
+    transition: 2s;
+  }
+  
+  .icon-linkedin:hover {
+    background: #d926b5;
+  }  
+
+  .logotipo-whatsapp {
+    color: #d926b5;
+    fill: #000;
+    transition: 2s;
+  }
+  
+  .logotipo-whatsapp:hover {
+    background: #d926b5;
+  } 

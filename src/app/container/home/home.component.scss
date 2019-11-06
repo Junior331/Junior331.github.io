@@ -1,0 +1,156 @@
+.engrenagens {
+  display: flex;
+  margin-left: 19vw;
+  margin-top: -5vh;
+  flex-flow: wrap;
+  position: absolute;
+}
+
+.box {
+  width: 50px;
+  height: 50px;
+  // position: absolute;
+  // margin-left: 22vw;
+  // margin-top: 47vh;
+
+}
+
+.box2 {
+  width: 50px;
+  height: 50px;
+  // background: url(http://twixar.me/rBbn);
+  // position: absolute;
+  // margin-left: 24.4vw;
+  // margin-top: 43.5vh;
+
+}
+
+.horario {
+  animation: gira 8s linear infinite;
+}
+
+.antiHorario {
+  -webkit-animation: giraAntihorario 8s cubic-bezier(0, 0, 0.76, 0.76) infinite;
+  animation: giraAntihorario 8s linear infinite;
+}
+
+.carregando {
+  width: 22vw;
+  // position: absolute;
+  background-color: black;
+  // background-color: #333;
+  border-radius: 5px;
+
+
+  div {
+    width: 0px;
+    height: 1vh;
+    background-color: #bea6fa;
+    border-radius: 5px;
+
+    position: relative;
+    animation: loader 2s;
+    -webkit-animation: loader 2s;
+    animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: infinite;
+    transition-timing-function: linear;
+    -webkit-transition-timing-function: linear;
+  }
+}
+
+//   }
+// }
+main {
+  background-image: url("../../../assets/img/background.jpg");
+  background-size: cover;
+  height: 100vh;
+  color: #ffff;
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  font-family: Reckoner_Bold;
+  font-weight: 500;
+  font-size: 75px;
+  margin-bottom: -7px;
+  color: #454545;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.icone {
+  width: 40px;
+  margin: 0px 20px;
+  padding: 15px 0px;
+
+}
+.git:hover{
+  // background-color: #333;
+  fill: #333;
+}
+.linkedin:hover{
+  // background-color: #333;
+  fill: blueviolet;
+}
+.email:hover{
+  // background-color: #333;
+  fill: red;
+}
+
+@keyframes loader {
+  0% {
+    width: 0%;
+    left: 0;
+    right: 0
+  }
+
+  50% {
+    width: 100%;
+    left: 0;
+    right: 0
+  }
+
+  99% {
+    width: 0%;
+    left: 100%;
+    right: 0
+  }
+}
+
+@-webkit-keyframes loader {
+  0% {
+    width: 0%;
+    left: 0;
+    right: 0
+  }
+
+  50% {
+    width: 100%;
+    left: 0;
+    right: 0
+  }
+
+  99% {
+    width: 0%;
+    left: 100%;
+    right: 0
+  }
+}
+
+@keyframes gira {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes giraAntihorario {
+  to {
+    transform: rotate(-360deg);
+  }
+}
